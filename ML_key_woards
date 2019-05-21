@@ -1,0 +1,16 @@
+
+1) What is the difdrence training data set and validation data set:
+for each epoch
+    for each training data instance
+        propagate error through the network
+        adjust the weights
+        calculate the accuracy over training data
+    for each validation data instance
+        calculate the accuracy over the validation data
+    if the threshold validation accuracy is met
+        exit training
+    else
+        continue training
+        
+2) Over/unde fitting data
+https://machinelearningmastery.com/overfitting-and-underfitting-with-machine-learning-algorithms/
