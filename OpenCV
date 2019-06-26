@@ -1,0 +1,3 @@
+1) Not able to import cv2 even if cv2 is installed using pip3.
+
+Ans: Install "pip3 install opencv-python"
